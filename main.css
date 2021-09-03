@@ -1,0 +1,974 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+
+h2 {
+    font-weight: lighter;
+    margin: 20px 0;
+}
+
+.someP {
+    color: rgb(161, 161, 161);
+    width: 60%;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+
+/* section 1 */
+
+.section1 {
+    width: 100%;
+    background-color: rgb(46, 47, 51);
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.section1:first-child {
+    padding-top: 280px;
+    padding-bottom: 200px;
+}
+
+.section1 span {
+    color: teal;
+}
+
+.section1 h1 {
+    padding: 20px 0;
+}
+
+.flexRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons1 {
+    padding: 20px;
+    display: block;
+    float: none;
+}
+
+.buttonAll {
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    transition: all 0.3s ease-out;
+}
+
+.buttons1 button {
+    padding: 10px;
+    color: white;
+    background-color: teal;
+}
+
+.section1-b1 {
+    margin-right: 15px;
+}
+
+.buttons1 button:hover {
+    background-color: rgb(12, 208, 113);
+}
+
+
+/* section 2 */
+
+.menu {
+    width: 100%;
+    box-shadow: 0px 4px 10px 3px rgba(212, 211, 211, 0.5);
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo img {
+    padding-right: 15px;
+}
+
+.mainmenu {
+    width: 70%;
+    margin-right: 5%;
+}
+
+.mainmenu ul {
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mainmenu ul li {
+    margin: 0 0 3px 0;
+    float: none;
+    width: 160px;
+    height: auto;
+    text-align: center;
+}
+
+.mainmenu ul li a {
+    padding: 20px 10px;
+    display: block;
+    background: none;
+    line-height: 16px;
+    height: auto;
+    transition: all 0.3s ease-out;
+}
+
+.mainmenu ul li a:hover {
+    color: white;
+    background-color: rgb(12, 208, 113);
+}
+
+
+/* section 3 */
+
+.section3 {
+    padding: 100px 0;
+}
+
+.section3 div {
+    width: 210px;
+    padding: 45px 5px;
+    text-align: center;
+    border: 1px solid rgba(212, 211, 211, 0.5);
+    margin-right: 20px;
+    white-space: pre-line;
+    position: relative;
+    color: rgb(104, 102, 102);
+    transition: all 0.3 ease-out;
+}
+
+.section3 div:hover svg {
+    color: teal;
+}
+
+.section3 p {
+    color: rgb(122, 122, 122);
+    font-weight: normal;
+}
+
+.iconTop {
+    position: absolute!important;
+    width: 90px!important;
+    height: 12px!important;
+    border: 1px solid rgba(212, 211, 211, 0.5)!important;
+    background-color: white;
+    border-radius: 75%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.iconTop svg {
+    position: absolute!important;
+    color: rgba(212, 211, 211, 0.5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* section 4 */
+
+.section4 {
+    width: 100%;
+    padding: 0 250px 70px 250px;
+}
+
+.section4-1 {
+    width: 50%;
+    color: rgb(161, 161, 161);
+}
+
+.section4-1 h2 {
+    color: rgb(104, 102, 102);
+    padding-bottom: 40px;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.section4-1 button {
+    margin-top: 30px;
+    background-color: rgba(233, 231, 231, 0.774);
+    color: rgb(104, 102, 102);
+}
+
+.section4-1 button:hover {
+    color: white;
+    background-color: rgb(12, 208, 113);
+}
+
+.section4-2 {
+    width: 50%;
+    justify-content: flex-end;
+}
+
+#recktangle {
+    width: 285px;
+    height: 350px;
+    border-radius: 5%;
+    transform: rotate3d(2, 1, 1, -0.2turn);
+    box-shadow: -20px 15px 9px 5px rgb(212 211 211 / 50%);
+    background: linear-gradient(#03554e, #171820);
+}
+
+
+/* section 5 */
+
+.section5 {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(32, 32, 54);
+    color: white;
+    padding: 70px 0;
+    flex-direction: column;
+}
+
+.section5-main {
+    width: 70%;
+    justify-content: space-between;
+}
+
+.section5-submain {
+    margin-right: 3%;
+}
+
+.section5-div {
+    width: 130px;
+    padding: 60px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    margin: auto;
+    border: 5px solid rgb(102, 235, 162);
+    position: relative;
+    transition: all 0.3s ease-out;
+}
+
+.section5-div div {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 25px 0;
+    background-color: rgb(233, 233, 233);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-out;
+}
+
+.section5-submain h3 {
+    margin: 15px;
+}
+
+.subP {
+    width: 95%;
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.section5-submain:hover .section5-div {
+    border: 5px solid rgb(102, 155, 235);
+    color: white;
+}
+
+.section5-submain:hover .section5-div div {
+    background-color: rgb(32, 32, 54);
+}
+
+
+/* section 6 */
+
+.section6 {
+    width: 100%;
+    flex-direction: column;
+    padding: 70px 0;
+    color: black;
+}
+
+.section6-div {
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.section6-div div {
+    width: 23%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid rgba(212, 211, 211, 0.5);
+    transition: all 0.3s ease-out;
+}
+
+.fa-lightbulb {
+    color: rgb(243, 136, 36);
+    margin-bottom: 20px;
+}
+
+.fa-unlock-alt {
+    color: rgb(243, 50, 36);
+    margin-bottom: 20px;
+}
+
+.icon3 {
+    color: rgb(36, 177, 243);
+    margin-bottom: 20px;
+}
+
+.fa-dot-circle {
+    color: rgb(243, 36, 122);
+    margin-bottom: 20px;
+}
+
+.section6-div div:hover {
+    background-color: rgba(212, 211, 211, 0.5);
+}
+
+
+/* section 7 */
+
+.section7 {
+    flex-direction: column;
+    width: 100%;
+}
+
+.section7-1 {
+    width: 90%;
+    /* padding: 0 5%; */
+    border-top-style: double;
+    border-bottom-style: double;
+    margin-bottom: 30px;
+}
+
+.section7-1 ul {
+    width: 80%;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section7-1 ul li {
+    margin: 0 0 3px 0;
+    float: none;
+    height: auto;
+    text-align: center;
+}
+
+.section7-1 ul li a {
+    padding: 20px 10px;
+    display: block;
+    background: none;
+    line-height: 16px;
+    height: auto;
+    transition: all 0.3s ease-out;
+}
+
+.section7-1 ul li a:hover {
+    color: rgb(12, 208, 113);
+}
+
+.section7-1 button {
+    margin-left: 7%;
+    font-size: 12px;
+}
+
+.section7-1 button:hover {
+    background-color: rgb(12, 208, 113);
+    color: white;
+}
+
+.section7-2 {
+    width: 60%;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.section7-2 div {
+    width: 25%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: all 0.3s ease-out
+}
+
+.section7-img1 {
+    background-image: url('New folder/img1.jpg');
+}
+
+.section7-img2 {
+    background-image: url('New folder/img2.jpg');
+}
+
+.section7-2 div:hover {
+    background-color: rgba(92, 92, 92, 0.575)!important;
+    opacity: 0.3;
+}
+
+.section7-2 div:hover::before {
+    content: '';
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 35px solid white;
+}
+
+.section7-2 div:hover::after {
+    content: "simple hover effect";
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: 150px;
+    left: 0;
+    text-align: center;
+    padding: 15px 0;
+    background-color: white;
+}
+
+
+/* section 8 */
+
+
+/* section 9 */
+
+.section9 {
+    width: 100%;
+    padding: 5% 10%;
+    text-align: center;
+    background-color: rgb(32, 32, 54);
+    color: white;
+    flex-direction: column;
+}
+
+.section9 h2 span {
+    color: rgb(102, 235, 162);
+}
+
+.section9 svg {
+    color: rgb(102, 235, 162);
+}
+
+.section9P {
+    width: 60%;
+    margin: 30px 0;
+}
+
+.section9-div1 {
+    width: 25%;
+    flex-direction: column;
+    text-align: end;
+    font-size: 13px;
+    color: white;
+}
+
+.section9-div1 h3 {
+    margin-right: 20px;
+}
+
+.section9-div2 {
+    width: 30%;
+    height: 500px;
+    border-radius: 5%;
+    background-color: rgba(212, 211, 211, 0.5);
+}
+
+.section9-div3 {
+    width: 25%;
+    flex-direction: column;
+    text-align: start;
+    font-size: 13px;
+    color: white;
+}
+
+.section9-div3 h3 {
+    margin-left: 20px;
+}
+
+
+/* section 10 */
+
+.section10 {
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    flex-direction: column;
+}
+.flex-container div:nth-child(odd) {
+    background-color: rgb(236, 236, 236);
+}
+
+.flex-container div:nth-child(even) {
+    background-color: rgb(209, 209, 209);
+}
+
+
+
+/* ესენი ქვემოთ რაცაა რატო არ მუშაობს არ ვიცი */
+
+/* .section10-1:nth-child(odd){
+    background-color: rgb(236, 236, 236)!important;
+}
+.section10-1:nth-child(even){
+    background-color: red!important;
+} */
+
+
+
+.flex-container div div {
+    width: 300px;
+    height: 40px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section10-1 :nth-child(1) {
+    height: 140px;
+}
+
+.section10-1-1 {
+    background: rgb(24, 19, 61)!important;
+    height: 50px!important;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    transition: all 0.2s ease-out;
+
+}
+.section10-1-2{
+    height: 90px!important;
+    background: linear-gradient(90deg, rgba(137, 159, 242, 0.5) 0%, rgba(16, 173, 150, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.flex-container div button{
+    color: white;
+    background-color: teal;
+    font-weight: normal;
+    border: none;
+    transition: all 0.3s ease-out;
+}
+.section10-last{
+    height: 70px!important;
+}
+.flex-container div button:hover{
+    background-color:rgb(24, 19, 61) ;
+}
+.flex-container div:not(:first-child):hover .section10-1-1{
+    transform: scaleY(1.2);
+    transform-origin: bottom;
+}
+.section10-5{
+    width: 88%;
+    margin: auto;
+    border: 1px solid rgb(233, 233, 233);
+    padding: 40px 20px;
+    position: relative;
+}
+
+ /* აქ ღილაკზე ტექსი ქემოთ ჩამოდის და რატო? ვერაფერს ვუშვრები */
+.section10-5 button{
+    margin-left: 60px;
+    background-color: rgb(102, 235, 162);
+    color: white;
+    padding: 5px 50px;
+    text-transform: capitalize;
+    transition: all 0.3s ease-out;
+}
+.section10-5 button:hover{
+    background-color:teal ;
+
+}
+
+.section10-5::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 90%;
+    left: 0;
+    top: 50%;
+    background-color: rgb(102, 235, 162);
+    transform: translateY(-50%);
+}
+
+
+/* section11 */
+
+.section11{
+    width: 100%;
+    padding: 80px 85px;
+    background-color: #f9fafb;
+    flex-wrap: wrap;
+}
+.section11-1{
+    width: 100%;
+}
+.section11-2{
+    width: 100%;
+}
+
+.section11-1main{
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.section11-1>div{
+    width: 50%;
+}
+.section11-2>div{
+    width: 50%;
+}
+.section11-main{
+    width: 50%;
+    margin-bottom: 10px;
+}
+.section11-h3 {
+    justify-content: start;
+    margin-bottom: 30px;
+}
+.section11-h3 h3{
+    padding-left: 10px;
+
+}
+.section11-h3 svg{
+    color: rgb(24, 19, 61) ;
+}
+.section11 a{
+    color: rgb(102, 235, 162);
+}
+.section11 p{
+    margin-bottom: 10px;
+}
+
+
+
+/* section12 */
+
+.section12{
+    width: 100%;
+    padding: 70px 100px;
+    text-align: center;
+}
+.section12-main{
+    flex-wrap: wrap;
+    padding-top: 70px;
+}
+.section12-div{
+    width: 33%;
+    transition: all 0.2 ease-out;
+}
+.section12-div div{
+    width: 100%;
+    text-align: start;
+}
+.section12-div div div{
+    justify-content: start;
+    margin-top: 5px ;
+}
+.section12-div img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.section12-div svg{
+    margin-right: 15px;
+    color: rgb(102, 235, 162);
+}
+.section12-div h4{
+    width: 80%;
+}
+.section12-div:hover {
+    background-color:rgb(233, 233, 233) ;
+}
+
+
+/* section13 */
+
+.section13{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(32, 32, 54);
+    color: white;
+    padding: 100px;
+}
+.section13 div{
+    width: 90%;
+}
+.section13 p{
+    text-align: start;
+}
+.section13-icons{
+    padding: 50px 0;
+    justify-content: space-between;
+}
+.section13-icons svg{
+    margin-right: 15px;
+    transition: all 0.3s ease-out;
+}
+.fa-facebook-f:hover{
+    color: rgb(10, 123, 252);
+}
+.fa-twitter:hover{
+    color: rgb(0, 174, 255);
+}
+.fa-rss:hover{
+    color: rgb(224, 120, 45);
+}
+.fa-globe:hover{
+    color: rgb(0, 174, 255) ;
+}
+.fa-pinterest:hover{
+    color: red;
+}
+.fa-google-plus-g:hover{
+    color: rgb(126, 223, 37);
+}
+.fa-skype:hover{    
+    color: rgb(0, 174, 255);
+}
+.fa-linkedin-in:hover{
+    color: rgb(10, 123, 252);
+}
+.fa-vimeo-v:hover{
+    color: rgb(0, 174, 255);
+}
+.fa-tumblr:hover{
+    color: rgb(77, 13, 228);
+}
+.section13 form{
+    text-align: start;
+    width: 100%;
+}
+.section13 input{
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+}
+.section13 textarea{
+    padding: 5px;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 15px;
+}
+.section13 button{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(102, 235, 162);
+    color: white;
+    transition: all 0.3s ease-out;
+}
+.section13 button:hover{
+    background-color:teal ;
+}
+
+.section13-2 div{
+    width: 100%;
+    height: 32%;
+    margin-top: 20px;
+}
+.section13-2 img{
+    max-width: 25%;
+    max-height: 100%;
+}
+.section13-2 div div{
+    text-align: start;
+}
+.section13-2 h5{
+    padding-top: 10px;
+    font-weight: normal;
+}
+.section13-2 p{
+    width: 100%;
+    padding-top: 35px;
+    font-weight: lighter;
+}
+
+
+/* section 14 */
+
+.section14{
+    width: 100%;
+    background-color: rgb(32, 32, 54);
+    color: white;
+    padding: 100px;
+}
+.section14 div{
+    width: 100%;
+    padding-right: 10px;
+}
+.section14 h2{
+    padding-left: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.section14 h2::before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 80%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: rgb(102, 235, 162);
+}
+.section14-1 a {
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.section14-1 a span{
+    color: rgb(102, 235, 162);
+}
+.section14-logo{
+    position: relative;
+}
+.section14-1 img{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    width: 20px;
+    height: 20px;
+}
+.section14-1 p{
+    padding: 20px 0;
+    color: rgba(255, 255, 255, 0.719);
+}
+.section14-search{
+    justify-content: start;
+}
+.section14-search input{
+    background-color:rgb(41, 41, 59) ;
+    border: none;
+    padding:15px;
+    margin-right: 10px;
+    width: 65%;
+}
+.section14-search div{
+    background-color: rgb(102, 235, 162);
+    width: 15%;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5%;
+}
+.section14-2 p{
+    color: rgba(255, 255, 255, 0.719);
+    padding-left: 10px;
+}
+.section14-2-div div{
+    width: 80%;
+}
+.section14-2-div{
+    transition: all 0.3s ease-out;
+}
+.section14-2-div img{
+    max-width: 100%;
+    transition: all 0.3s ease-out;
+
+}
+.section14-2-div:hover p{
+    color: white;
+}
+.section14-2-div:hover img{
+    background-color: rgb(102, 235, 162);
+}
+.section14-3-photos{
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.section14-3-photos div{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: white;
+    transition: all 0.3s ease-out;
+
+}
+.section14-3-photos div:hover{
+    background-color:rgba(255, 255, 255, 0.719) ;
+    cursor: pointer;
+}
+.section14-3 a{
+    margin-left: 25px;
+    color: rgb(102, 235, 162);
+}
+
+
+/* footer  */
+
+
+
+footer{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    background-color: rgb(32, 32, 54);
+    font-size: 10px;
+}
+footer div{
+    width: 50%;
+}
+footer img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+footer span{
+    color: rgb(102, 235, 162);
+}
+.footermenu ul {
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footermenu ul li {
+    margin: 0 0 3px 0;
+    float: none;
+    width: 160px;
+    height: auto;
+    text-align: center;
+}
+
+.footermenu ul li a {
+    padding: 20px 10px;
+    display: block;
+    background: none;
+    line-height: 16px;
+    height: auto;
+    color: white;
+    transition: all 0.3s ease-out;
+}
+
+.footermenu ul li a:hover {
+    color: rgb(12, 208, 113);
+}
